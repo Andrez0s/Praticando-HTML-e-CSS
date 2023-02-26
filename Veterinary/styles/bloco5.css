@@ -1,0 +1,76 @@
+.banner5 {    
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    background-color: var(--amarelo);
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner5__conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.banner5__titulos {
+    text-align: center;
+}
+
+.banner5__titulo {
+    font-size: 4.68rem;
+    color: var(--branco);
+    font-weight: 700;
+    font-family: var(--font-principal);
+}
+
+.banner5__texto {
+    font-size: 2rem;
+    color: var(--branco);
+    font-weight: 400;
+    font-family: var(--font-principal);
+    margin: 2rem 0 3rem;
+    text-align: center;
+}
+
+.banner5__imagens {
+    display: flex;
+}
+
+.banner5__imagem2 {
+    margin: 0 4rem;
+}
+
+.banner5__precos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 3rem 0 2rem 0;
+    font-size: 2.62rem;
+    color: var(--branco);
+    font-weight: 600;
+    font-family: var(--font-principal);
+    margin: 0 5rem 0 3rem;
+}
+
+.banner5__precos s {
+    margin: 0 2rem;
+}
+
+.banner5__botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 4.8rem;
+}
+
+.banner5__botoes a {
+    font-size: 1.56rem;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1.2rem 3rem;
+    border-radius: 1.87rem;
+    background-color: var(--azul);
+}

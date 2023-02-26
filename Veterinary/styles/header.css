@@ -1,0 +1,69 @@
+.cabecalho {
+    display: flex;
+    background-color: var(--amarelo-escuro);
+    padding: 1rem 0;
+    justify-content: center;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    max-width: 1440px;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabecalho__logo {
+    width: 10rem;
+}
+
+.cabecalho__lista__link {
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.cabecalho__lista__menu {
+    display: flex;
+    gap: 2rem;
+    margin: 0 10%;
+    text-decoration: none;
+}
+
+.cabecalho__pesquisa {
+    display: flex;
+    margin-right: 10%;
+}
+
+.cabecalho__pequisa__busca {
+    background-color: var(--amarelo);
+    border: none;
+    padding: 0.5rem;
+}
+
+.cabecalho__pequisa__busca::placeholder {
+    color: var(--branco);
+}
+
+.cabecalho__pesquisa__botao {
+    background: url(../img/SearchButton.png) no-repeat;
+    background-size: 1rem;
+    background-position: center;
+    border: none;
+    width: 2.5rem;
+    height: 2rem;
+    background-color: var(--azul);
+}

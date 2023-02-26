@@ -1,0 +1,65 @@
+.banner8 {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--branco);
+    padding: 10%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container__banner8 {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    
+}
+
+.container__animals {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.container__animals h2 {
+    font-size: 1.56rem;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.container__animals span {
+    display: flex;
+    font-size: 1.06rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--azul);
+    margin: 1rem 0 2rem 0;
+}
+
+.container__animals p {
+    font-size: 1.06rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    margin-bottom: 2rem;
+}
+
+.container__animals h3 {
+    font-size: 1.31rem;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: var(--azul);
+}
+
+.animals__texto {
+    padding: 1rem;
+}
+
+.animals__texto1 {
+    padding: 1rem;
+    border-left: 1px solid var(--cinza-claro);
+    border-bottom: 1px solid var(--cinza-claro);
+    border-right: 1px solid var(--cinza-claro);
+}

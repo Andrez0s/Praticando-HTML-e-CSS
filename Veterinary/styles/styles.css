@@ -1,0 +1,28 @@
+@import url("./header.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+@import url("./bloco1.css");
+@import url("./bloco2.css");
+@import url("./bloco3.css");
+@import url("./bloco4.css");
+@import url("./bloco5.css");
+@import url("./bloco6.css");
+@import url("./bloco7.css");
+@import url("./bloco8.css");
+@import url("./rodape.css");
+
+:root {
+    --amarelo-escuro: #daac00;
+    --amarelo: #fcc302;
+    --azul: #00c0cb;
+    --branco: #ffffff;
+    --cinza-escuro: #313243;
+    --cinza-claro: #d6d6d6;
+    --preto: #343434;
+    font-size: 16px;
+    --font-principal: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fcc202e0;
+    justify-content: center;
+}

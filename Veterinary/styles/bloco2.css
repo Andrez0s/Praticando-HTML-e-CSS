@@ -1,0 +1,53 @@
+.banner2 {
+    background-color: var(--branco);
+    display: flex;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+}
+
+.bloco2__container__titulo {
+    font-family: var(--font-principal);
+    font-size: 3.12rem;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.bloco2__container__texto {
+    font-family: var(--font-principal);
+    font-size: 1.81rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    margin: 3rem 0 3rem 0;
+}
+
+.bloco2__container__botao {
+    font-family: var(--font-principal);
+    font-size: 1.31rem;
+    font-weight: 600;
+    color: var(--branco);
+    padding: 1rem 1.5rem;
+    background-color: var(--amarelo);
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.banner2__conteudo {
+    display: flex;
+    padding: 10% 10% 2% 7%;
+    gap: 4rem;
+}
+
+.bloco2__container {
+    text-align: end;
+}
+
+.banner__container {
+    margin-top: 9%;
+}
+
+.bloco2__container__imagem {
+    box-shadow: -170px 164px 0 -132px rgba(252,194,2,1);
+}
+
